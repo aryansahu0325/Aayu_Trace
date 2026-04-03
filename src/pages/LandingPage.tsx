@@ -19,9 +19,7 @@ const LandingPage = () => {
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center bg-[#92b692]">
-                  <span className="text-primary-foreground font-bold text-sm">A</span>
-                </div>
+                <img src="/favicon.svg" alt="AayuTrace Logo" className="w-8 h-8" />
                 <span className="font-bold text-lg">AayuTrace</span>
               </div>
               <p className="text-muted-foreground text-sm">

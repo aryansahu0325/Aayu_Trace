@@ -6,9 +6,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <Package2 className="w-4 h-4 text-primary-foreground" />
-            </div>
+            <img src="/favicon.svg" alt="AayuTrace Logo" className="w-8 h-8 drop-shadow-sm" />
             <span className="font-bold text-xl bg-gradient-hero bg-clip-text text-transparent">AayuTrace</span>
           </div>
 

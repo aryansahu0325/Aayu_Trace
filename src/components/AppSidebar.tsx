@@ -62,7 +62,10 @@ export function AppSidebar() {
 
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel>AayuTrace</SidebarGroupLabel>
+          <SidebarGroupLabel className="flex items-center gap-2 text-primary font-bold">
+            <img src="/favicon.svg" alt="AayuTrace Icon" className="w-5 h-5 rounded drop-shadow-sm" />
+            AayuTrace
+          </SidebarGroupLabel>
 
           <SidebarGroupContent>
             <SidebarMenu>
